@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="Fonts/css/all.css">
+    
+    <style>
+        .hr{
+           border: solid;
+           margin-left: 600px;
+           color: slategray;
+        }
+
+        #pic{
+            width:400px;
+             height:250px;
+             border: groove;
+        
+        
+        }
+
+        #pic:hover{
+            width: 500px;
+            height: 250px;
+
+        }
+
+        .row{
+            float: left;
+            margin-top: 10px;
+            padding-top: 50px;
+            line-height: 20px; 
+    
+        }
+
+       .textbox {
+       width: 30%;
+       float: left;
+       text-align: center;
+        margin-top: 90px;
+        
+        }
+
+      .imagebox {
+      width: 30%;
+      float: left;
+      margin-left: 300px;
+      margin-top: 150px;
+       
+       }
+
+       .HR1{
+           border: solid;
+           margin-right: 600px;
+           color: slategray;
+           margin-top: 80%;
+       }
+
+       .imagebox1 {
+     
+      float: left;
+      margin-right: 300px;
+      margin-top: -60px;
+      display: inline-block;
+      margin: 25px 10px;
+         
+         }
+
+         .textbox1 {
+       width: 30%;
+       float: left;
+       text-align: initial;
+       margin-left: 150px;
+       margin-top: -50px;
+       }
+
+       .columns{
+        float: left;
+        position: relative;
+        margin-right: 20px;
+        data: columns 3;
+        column-gap: 100px;
+    }
+     
+    a{
+        text-decoration: none;
+    }
+
+    a:link{
+        color: white;
+    }
+
+    a:visited {
+        color: white;
+    }
+
+
+    #Border {
+			border:  1px solid;
+    }
+
+      
+        
+        
+       
+    </style>
+</head>
+<body class = "container-fluid">
+    <div id="Border">
+        <br><br>
+   <h2 class=" text-center">Master Institute and Technology</h2>
+   <br>
+   <div class="btn-toolbar bg-dark justify-content-between">
+       <div class="btn-group">
+    <button class="btn btn-dark"><span class="fa fa-home"></span> Home</button>       
+    <button class="btn btn-dark"><span class="fa fa-user"></span> About</button>
+    <button class="btn btn-dark"><span class="fa fa-address-book"></span> Contact Us</button>
+    <button class="btn btn-dark"><span class="fa fa-question-circle"></span> Service</button>
+       </div>
+       <div class="btn-group">
+        <button class="btn btn-dark"><span class="fa fa-sign-in-alt"></span> Sign</button>
+       </div>
+   </div>
+   <br>
+   <div class="carousel slide carousel-fade" id="slidingBanners" data-ride="carousel" position="relative" overflow="hidden">
+    <div class="carousel-inner">
+        <div class="carousel-item active" data-interval="500">
+       <img src="Images/a1.jpg" style="width: 100%; height: 400px;">
+    </div>
+    <div class="carousel-item" data-interval="2000">
+        <img src="Images/a2.jpg" style="width: 100%; height: 400px;">
+    </div>
+    <div class="carousel-item" data-interval="2000">
+        <img src="Images/a3.jpg" style="width: 100%; height: 400px;">
+    </div>
+    </div>
+    <a class="carousel-control-prev" href="#slidingBanners">   
+     </a>
+     <a class="carousel-control-next" data-slide="next" href="#slidingBanners">
+        </a>
+   </div> 
+       <div style="margin-top: 20px; width: 300px; margin-left: 600px; height: 50px;">
+       <div class="btn btn-warning btn-block">Show me whats in this package</div>
+   </div>
+
+   <div style="margin-top: 20px; width: 250px; margin-left: 630px; height: 50px;">
+    <div class="btn btn-primary btn-block">Show me what is the package</div>
+</div>
+<br>
+<div>
+    <p style= "margin-left:400px; margin-right:350px;" >
+ * A package is a small container in which a quantity of something is sold. 
+ Packages are either small boxes made of thin cardboard, or bags or envelopes made of paper or plastic. ...
+  When a product is packaged, it is put into containers to be sold.</p>
+  </div>
+ <div class="hr"  style="margin-top:50px;"> </div>
+
+ <div class="table">
+    <div class="row">
+        <div class="column">
+     <table width="900" height="250" border="1" frame="box" cellspacing="20" cell-padding="30" style="margin-left:50px; text-align: center;" >
+     <thead>
+         <tr style="background-color: lightgray">
+             <td>Department</td>
+             <td>Included</td>
+         </tr>
+     </thead>
+     <tbody>
+         <tr>
+             <td>M.Tech</td>
+             <td><b> &check; </b></td>
+         </tr>
+         <tr>
+             <td>B.Tech</td>
+             <td><b>&check;</b></td>
+         </tr>
+         <tr>
+             <td>MCA</td>
+             <td><b>&check; </b></td>
+         </tr>
+     </tbody>
+ </table>
+</div>
+
+<div class="column" style="margin-left: 30px;">
+<img id="pic" src="Images/a2.jpg">
+</div>
+
+<h3 style="margin-top:50px; margin-left: 600px;">What is the Job?</h3>
+
+</div>
+<br>
+
+    
+ <div class="row" style="background-color: rgb(155, 174, 229); height: 500px; margin-top: 30px; width: auto; margin-right: 3px; margin-left: 3px;">
+       <div class="col-xs-12 col-sm-2">
+       <i class="fa fa-keyboard fa-3x"></i>
+    <br><br>
+      <h6>Types of jobs</p>
+       <p>Volcanologist. ...</p>
+       <p>Quantum physicist. ..</p>
+       <p>Oceanographer. ...</p>
+       <p>Biomedical engineer. ...</p> 
+        
+    </div>
+   
+    <div class="col-xs-12 col-sm-2">
+        <i class="fa fa-file-word fa-3x"></i>
+        <br><br>
+        <h6>Define job profile</h6>
+        <p>Job profile developed by the</p>
+        <p>personnel department of a</p>
+        <p>business might include such things</p>
+        <p>as job responsibilities, required</p>
+        <p>qualifications, advancement</p>
+        <p>prospects.</p> 
+    
+    </div>
+    
+    <div class="col-xs-12 col-sm-2"> 
+        <i class="fab fa-wordpress fa-3x"></i>
+        <br><br>
+        <h6>Job profile summary</h6>
+        <p>Profile summary is a summary of</p>
+        <p>your education, skills, career</p>
+        <p>experiences, and goals.</p>
+     </div>
+
+          <div class="col-xs-12 col-sm-2">
+          <i class="fas fa-desktop fa-3x"></i>
+          <br><br>
+          <h4> The IT Skills</h4>
+          <p>Coding.</p>
+          <p>Communication.</p>
+          <p>Networks.</p>
+          <p>Time Management.</p>
+          <p>More Information Technology</p>
+          <p>Skills.</li>
+        </div>
+
+        <div class="col-xs-12 col-sm-2"> 
+                <i class="fas fa-desktop fa-3x"></i>
+                <br><br>
+                <h4>Freshers key skills</h4>
+                <p>Communication.</p>
+                <p>Ability to Work Under Pressure</p>
+                <p>Decision Making.</p>
+                <p>Time Management.</p>
+                <p>Self-motivation.</p>
+                <p>Conflict Resolution.</p>
+                <p>personal skills?</p>
+                <p>Leadership.</p>
+                <p>Adaptability.</p>
+         </div>
+
+        <div class="col-xs-12 col-sm-2">
+            <i class="fas fa-desktop fa-3x"></i>
+            <br><br>
+            <h4>Personal skills</h4>
+            <p>A skill is the ability to do something </p>
+            <p>well, a certain competence or</p>
+            <p>proficiency. Skills are typically</p>
+            <p>acquired or developed through</p>
+            <p>direct experiences and training,</p>
+            <p>and they can require sustained</p>
+            <p>effort.</p>
+            </div>
+        </div> 
+        </div>
+
+        <br><br>
+        <div  class="textbox">
+        <span style="font-size:100px; color: red; margin-left: 1rem;" >&#9312</span>
+        <br\n>  Why do you want this job? </br>
+        <pre style="float: left; text-align: left;">
+            The hiring manager wants to: Learn about your career goals and how this position fits into your plan. 
+            Make sure that you are sincerely interested in the job and will be motivated to perform if hired. 
+            Find out what you know about the company, industry, position (and if you took the time to research). 
+            </pre>
+            </div>
+        <div class="imagebox">
+        <img src="Images/b1.jpg" style="width:350px; height: 150px; margin-left: 300px;">
+        </div>    
+        <br> <br>
+       
+        <div class="HR1" style="margin-bottom: 100px;"></div>
+        
+        <div class="imagebox1">
+        <img src="Images/b2.png" style="width:350px; height: 150px; margin-left: 50px;">
+        </div>
+        <div  class="textbox1" style="margin-right: 50px;">
+        <span style="font-size:100px; color: yellow;"> &#9313</span>
+        <br\n> What is a CV example?</br>
+        <pre style="float: left";>
+        A resume is a brief summary. ... If you were writing your resume you would include only the work 
+        information that relates specifically to the job you'r applying for, but for a Curriculum Vitae, 
+        you would also include all your teaching experience, lab and field work.. 
+        </pre>
+        </div>
+            <br> 
+
+         <div class="hr"  style="margin-top:250px;"> </div>     
+         <br>
+
+        <div  class="textbox" style="margin-top: -10px;">
+        <span style="font-size:100px; color: darkgreen; margin-left: 1rem;" >&#9314</span>
+        <br\n> Do you need a resume for your first job? </br>
+        <pre style="float: left; text-align: left;">
+        When writing your first resume with no work experience, it's appropriate to include casual 
+        jobs like babysitting, pet sitting, lawn mowing, and shoveling snow. All experience counts 
+        and the way you present yourself, your skills, and your assets to a hiring manager begins 
+        with a strong resume.
+            </pre>
+            </div>
+        <div class="imagebox">
+        <img src="Images/b3.png" style="width:350px; height: 150px; margin-left: 250px; margin-top: -90px;">
+        </div>       
+        <br>
+        <div class="HR1" style="margin-top: 300px;"></div>
+        <br><br><br><br>
+
+        <div class="imagebox1">
+        <img src="Images/b4.jpg" style="width:350px; height: 150px; margin-left: 50px; margin-bottom: -60px;">
+        </div>
+        <div  class="textbox1" style="margin-right: 50px;">
+        <span style="font-size:100px; color: blue"> &#9315</span>
+        <br\n> Why do you think you can do well in this job?</br>
+        <pre style="float: left";>
+        I believe I will do well in this job because I have the relevant skills and it is my field 
+        of interest. ... I have a confident that I can do well in the job because of self confidence,
+        positive attitude. Previous success also brings self confidence for the future success. 
+        </pre>
+        </div>
+        <br><br><br>
+
+        <div class="button" style="margin-top: 200px; margin-left: 600px;">
+        <button class="btn btn-lg btn-primary">Request Call Back</button>
+        <button class="btn  btn-lg btn-secondary">FAQ</button>
+        </div>
+        <br><br><br>
+
+        <h3 class=" text-center">Student Deaprtment Details</h3>
+
+        <div class="row" style="width:auto; height:400px; background-color: rgb(216, 216, 216); margin-right: 3px; margin-left: 3px;">
+        <div class="col-xs-12 col-sm-3" style=" margin-left: 30px; margin-top: 30px;">
+        <i class="far fa-hourglass fa-3x"></i>
+        <br><br>
+        <h4>Average Salary Offered </h4>
+        <h5>INR 7 L per annum</h5>
+        <h6>per annum</h6>
+        </div>
+        <div class="col-xs-12 col-sm-3" style="margin-top: 30px;">
+        <i class="fas fa-sync fa-3x"></i>
+        <br><br>
+        <h4>Duration</h4>
+        <h3>2</h3>
+        <h6>years</h6>
+        </div>
+        <div class="col-xs-12 col-sm-3" style="margin-top: 30px;">
+        <i class="far fa-thumbs-up fa-3x"></i>
+        <br><br>
+        <h4>Average Fees Incurred</h4>
+        <h3>INR 25,000 - 2 L</h3>
+        <h6>per annum</h6>
+        </div>
+        <div class="col-xs-12 col-xs-3" style="margin-top: 30px;">    
+        <i class="far fa-flag fa-3x"></i>
+        <br><br>
+        <h4>Indian Institute of Technology,</h4>
+        <h4>[IIT] Kanpur</h4>
+        <h3>49,035</h3>
+        <h6>Kanpur</h6>
+        </div>
+        <br><br><br>
+        <div class="row">
+        <div class="col-xs-12">
+        <p style="margin-left: 550px;">* job: A group of homogeneous tasks related by similarity of functions.</p>
+        </div>
+        </div>
+        </div>
+        <br><br><br>
+
+        
+
+         <div class="row">
+            <h3 style="margin-top:-10px; margin-left: 700px;"><b>SERVICES</b></h3>
+            
+        <div class="card-deck" style="column-gap: 60px; margin-left: 50px; margin-right: 60px; margin-top: 30px;">
+            <div class="card" style=" box-shadow: 3px 8px 9px 9px #888888;">
+            
+                <div class="card-body">
+                    <img src="Images/c1.jpg" width="300" height="100">
+                </div>
+                <div class="card-footer">
+                    <b>WEB DESIGN!</b>
+                <p>Online ordering system helpsto maintain a Better
+                    Business Realtionship with your customer, which
+                    is a key factor to run any successful business.</p>
+                </div>
+            </div>
+            <div class="card" style=" box-shadow: 3px 8px 9px 9px #888888;">
+                <div class="card-body">
+                    <img src="Images/c2.jpg" width="300" height="100">
+                </div>
+                <div class="card-footer">
+                    <b>IT SERVICES!</b>
+                    <p>We are ideally located in Larbert meaning we can offer IT 
+                       support to businesses throughout Scotland. We take the hassle 
+                       and worry out of your IT system by providing preventative and 
+                       proactive IT support.</p>
+        
+                </div>
+            </div>
+            <div class="card" style=" box-shadow: 3px 8px 9px 9px #888888;">
+                <div class="card-body">
+                    <img src="Images/c3.png" width="300" height="100">
+                </div>
+                <div class="card-footer">
+                    <b>WEB MARKETING !!</b>
+                    <p>We are passionate about digital content creation, strategy 
+                    and delivery. We deliver results by designing marketing strategies 
+                    which improve our clients brand visibility.</p>
+                </div>
+            </div>
+             </div>
+            </div>
+            <br><br><br>
+            <div style="text-align: justify; color: white; text-shadow: 1px 1px 1px; line-height: 2em; margin-top: 55%;">
+                <footer style="background-color:rgb(86, 95, 95); height: 300px; margin-bottom: 50px;">
+           <h4 class="text-center">Master Technologies</h4>
+           <br>
+           <div style="padding-left: 60px;  color: whitesmoke;">
+               <ul class="columns" data-columns="3" style="float: left; width: 15%;">
+                   <li><a href="#facebook"><span class="fab fa-facebook"></span> Facebook</a></li>
+                   <li><a href="#Twitter"><span class="fab fa-twitter"></span> Twitter</a></li>
+                   <li><a href="#Google"><span class="fab fa-google"></span> Google</a></li>
+                   <li><a href="#Youtube"><span class="fab fa-youtube"></span> Youtube</a></li>
+               </ul>
+           </div>
+           
+           <div>
+               <ul class="columns" data-columns="3" style="float: left; width: 15%;">
+                   <li><a href="# Home">Home</a></li>
+                   <li><a href="# About">About</a></li>
+                   <li><a href="# Service">Service</a></li>
+                   <li><a href="# Contact">Contact</a></li>
+               </ul>
+           </div>
+       
+           <div>
+            <ul class="columns" data-columns="3" style="float: left; width: 30%;">
+            <li> Name : Master Institute </li>
+            <li> Email : info@masterit.com </li>
+            <li>Contact : +91-xxxxxxxxxx</li>
+            <li>Address : SrNagar Hyderabad Telangana India</li>
+            </ul>
+           </div>
+       </footer>
+   </div>
+           
+      
+        
+</div>
+</body>
+</html>
